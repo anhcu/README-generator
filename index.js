@@ -1,77 +1,78 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+// const utils = require('utils');
 // const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown')
-// TODO: Create an array of questions for user input
-// a README needs a title and a short description explaining the what, why, and how of the project.
-const questions = [
-    {
+
+    const questions = [{  
+        type:"input",
+        message: "What is the title project?",
+        name:"Title"
+    },{
         type:"input",
         message: "What is your Github user name?",
-        name:"Github",
-    },
-    {
+        name:"Github"
+    },{
         type: "input",
-        message: "What is your email address?",
-        name: "Email",
-    },
-    {
+        message: "Explain your project?",
+        name: "Description" 
+    },{
         type: "input",
         message: "What was your motivation?",
-        name: "Motivation",
-    },
-    {
+        name: "Motivation"
+    },{
         type: "input",
-        message: "Why did you build this project?",
-        name: "project",
-    },
-    {
+        message: "What does the user need to install to run this app?",
+        name: "Install"
+    },{
         type: "input",
-        message: "What problem does it solve?",
-        name: "solution",
-    },
-    {
+        message: "What command do you need to run this app?",
+        name: "Instructions"
+    },{
         type: "input",
-        message: "What did you learn?",
-        name: "Learn",
-    },
-    {
+        message: "What did I learn?",
+        name: "Learn"
+    },{
+        type: "input",
+        message: "How to contact me?",
+        name: "Contact"
+    },{
         type: "input",
         message: "What license was used for this README?",
-        name: "License",
+        name: "License"
+    },{
+        type: "input",
+        message: "Who contributed to this project?",
+        name: "Contributor"
     },
-    {
-    type: "input",
-    message: "Please add contributors",
-    name: "Contributor",
-    },
-];
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
- // sync the written data to the file
-//  return fs.writeFileSync(path.join(process.cwd(),))
+]
 
+//function to write REAMME file
+function writeToFile(fileName,data){
 
-
- 
-fs.writeFile('./utils/README.md' + fileName, data, function(err) {
+fs.writeFile(fileName, data, function(err) {
+    console.log(fileName)
+    console.log(data)
     if (err) {
-      return console.log(err);
+        return console.log(err);
+    } else {
+        console.log ("Successfully wrote:" + fileName);
     }
-    console.log ("Successfully wrote:" + fileName);
-  })
-
+    })
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
         writeToFile('README.md', generateMarkdown(data));
+        console.log(data)
     })
 }
-    
+
 
 // Function call to initialize app
 init();
+
+
+
