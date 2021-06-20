@@ -11,7 +11,7 @@ README-generator is an app that is created and designed for web developers who w
 ```md
 AS A developer
 I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+SO THAT I can create a professional README for a new project in a timely manner. 
 ```
 
 ## Criteria
