@@ -8,7 +8,7 @@
   README-generator is an app that is created and designed for web developers who want to save time and have a clean and professional README template.  This app allows web developers to create a README file simply by answering a few questions and BOOM! Your README is generated.
 
   # Motivation
-  My motivation is to create a README file simply to save time and have a professional README file generated.
+  My motivation is to generate a professional README that is simple to use.
 
   # Install
   Inquire, fs and utils.
@@ -17,13 +17,13 @@
   Node index.js
 
   # Learn
-  Just like saying “time is money” what I learned is that time is a valuable resource, therefore it is better to do things as quickly as possible.
+  “Time is money”, Time is a valuable resource, therefore it is better to create and develop in a timely manner. 
 
   # Contact
-  How to condense one of my work and force more of my energy on other parts of coding.
+  If you have any question, suggestion, or any future collaborations. Please email me anhcu714@gmail.com. 
 
   # License
-  n/a
+  N/A
 
   # Contributor
-  n/a;
+  N/A;
