@@ -35,20 +35,23 @@ THEN I am taken to the corresponding section of the README
 ```
 
 ## Installation and runtime instruction :
-- Use the following link to get to the repository
-- [README-generator](https://github.com/anhcu/README-generator/blob/main/test.md#License)
-* Once you download the repsoitory. You must install node, npm and inquirer.
+* Use the following link to get to the repository
+* [README-generator](https://github.com/anhcu/README-generator/blob/main/test.md#License)
+* Once you download the repsoitory. You need to install node, npm and inquirer.
 * Once the repository and inquirer have been install.
 * Follow the following command:
 
-![alt text](./images/README1.png),
+![alt text](./images/README1.png)
 
-Then, a promt of question will appear.
+> **Then, a promt of question will appear.**
 
-![alt text](./images/README2.png),
+![alt text](./images/README2.png)
 
-After, answering all those question, you will be promt a "Successful message."
-![alt text](./images/README3.png),
+> **After, answering all those question, you will be promt a "Successful message."**
+
+![alt text](./images/README3.png)
+
+![alt text](./images/README4.png)
 
 
 
