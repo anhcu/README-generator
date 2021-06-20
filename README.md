@@ -1,9 +1,10 @@
 # README-generator
-- README-genrator Github repo link https://github.com/anhcu/README-generator<br>
+- [README-generator](https://github.com/anhcu/README-generator/blob/main/test.md#License)
+- [Github README-genrator](https://github.com/anhcu/README-generator)
 
 # Description
 README-generator is an app that is created and designed for web developers who want to save time and have a clean and professional README template.  This app allows web developers to create a README file simply by answering a few questions and BOOM! Your README is generated.
-[pic](images/README2.png)
+[pic](./images/README2.png)
 
 ## User Story
 
@@ -13,7 +14,7 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Acceptance Criteria
+## Criteria
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -32,4 +33,15 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Installation and runtime instruction :
+- Use the following link to get to the repository
+- [README-generator](https://github.com/anhcu/README-generator/blob/main/test.md#License)
+* Once you download the repsoitory. You must install node, npm and inquirer.
+* Once the repository and inquirer have been install.
+* Follow the following command:
+
+
+
+
 
