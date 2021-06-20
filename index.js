@@ -14,6 +14,10 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "What is your Github user name?",
         name:"Github"
     },{
+        typr:"input",
+        message: "What is your email address?",
+        name: "Email"
+    },{
         type: "input",
         message: "Explain your project?",
         name: "Description" 
@@ -29,7 +33,11 @@ const generateMarkdown = require('./utils/generateMarkdown')
         type: "input",
         message: "What command do you need to run this app?",
         name: "Instructions"
-    },{
+    },{    
+        type: "input",
+        message: "How are test initiated on your project?",
+        name: "Question"
+    },{    
         type: "input",
         message: "What did I learn?",
         name: "Learn"
@@ -38,14 +46,17 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "How to contact me?",
         name: "Contact"
     },{
-        type: "input",
+        type: "list",
         message: "What license was used for this README?",
-        name: "License"
+        name: "License",
+        choices: ['The MIT License' , 'The GPL License','Apache License', 'GNU License', 'N/A']
     },{
         type: "input",
         message: "Who contributed to this project?",
         name: "Contributor"
-    },
+    
+},    
+
 ]
 
 //function to write REAMME file
@@ -65,7 +76,7 @@ fs.writeFile(fileName, data, function(err) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile('README.md', generateMarkdown(data));
+        writeToFile('test.md', generateMarkdown(data));
         console.log(data)
     })
 }
@@ -73,6 +84,5 @@ function init() {
 
 // Function call to initialize app
 init();
-
 
 

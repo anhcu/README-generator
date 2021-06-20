@@ -2,9 +2,23 @@
 function generateMarkdown(data) {
   return `
   # ${data.Title}
-
-  # Link to project
   https://github.com/${data.Github}/${data.Title}
+
+  # Email
+  ${data.Email}
+
+  # Table of Contents
+  * [Title](#Title)
+  * [Github](#Github)
+  * [Description](#Description)
+  * [Motivation](#Motivation)
+  * [Install](#Install)
+  * [Instructions](#Instructions)
+  * [Learn](#Learn)
+  * [Contact](#Contact)
+  * [License](#License)
+  * [Contributor](#Contributor)
+
 
   # Description
   ${data.Description}
@@ -18,6 +32,9 @@ function generateMarkdown(data) {
   # Instructions
   ${data.Instructions}
 
+  # Question
+  ${data.Question}
+
   # Learn
   ${data.Learn}
 
@@ -28,10 +45,9 @@ function generateMarkdown(data) {
   ${data.License}
 
   # Contributor
-  ${data.Contributor};
+  ${data.Contributor}
+
 `
-
-
 }
 
 
