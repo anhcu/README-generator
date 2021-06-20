@@ -4,7 +4,7 @@
 
 # Description
 README-generator is an app that is created and designed for web developers who want to save time and have a clean and professional README template.  This app allows web developers to create a README file simply by answering a few questions and BOOM! Your README is generated.
-[pic](./images/README2.png)
+
 
 ## User Story
 
@@ -41,6 +41,14 @@ THEN I am taken to the corresponding section of the README
 * Once the repository and inquirer have been install.
 * Follow the following command:
 
+![alt text](./images/README1.png),
+
+Then, a promt of question will appear.
+
+![alt text](./images/README2.png),
+
+After, answering all those question, you will be promt a "Successful message."
+![alt text](./images/README3.png),
 
 
 

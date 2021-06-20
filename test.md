@@ -31,7 +31,7 @@
   Go to your terminal and run node index.js
 
   # Question
-  I test the project by myself.
+  I'm doing all the testing myself.
 
   # Learn
   “Time is money”, Time is a valuable resource, therefore it is better to create and develop in a timely manner. 
@@ -43,5 +43,5 @@
   N/A
 
   # Contributor
-  N/A
+  n/a
 
