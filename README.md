@@ -49,9 +49,9 @@ THEN I am taken to the corresponding section of the README
 
 > **After, answering all those question, you will be promt a "Successful message."**
 
-![alt text](./images/README3.png)
+![alt text](./viedo/README3.png)
 
-![alt text](./images/README4.png)
+![alt text](./viedo/README4.png)
 
 
 
