@@ -59,8 +59,8 @@ THEN I am taken to the corresponding section of the README
 
 
 ## <ins>Demo</ins>
-### Par1
+### Part 1 (Click on the picture to go to the link.)
 [![Demo](./assets/images/demo.png)](https://www.youtube.com/watch?v=zLEMolZF69s)
 
-### Part 2
+### Part 2 (Click on the picture to go to the link.)
 [![Demo 2](./assets/images/README4.png)](https://www.youtube.com/watch?v=bh2DatRxF-k)
