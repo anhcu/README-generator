@@ -35,9 +35,6 @@ function generateMarkdown(data) {
   # Question
   ${data.Question}
 
-  # Learn
-  ${data.Learn}
-
   # Contact
   ${data.Contact}
 

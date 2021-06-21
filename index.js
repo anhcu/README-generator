@@ -37,10 +37,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         type: "input",
         message: "How are test initiated on your project?",
         name: "Question"
-    },{    
-        type: "input",
-        message: "What did I learn?",
-        name: "Learn"
     },{
         type: "input",
         message: "How to contact me?",
@@ -54,7 +50,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         type: "input",
         message: "Who contributed to this project?",
         name: "Contributor"
-    
 },    
 
 ]

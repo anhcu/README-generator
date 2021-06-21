@@ -49,10 +49,12 @@ THEN I am taken to the corresponding section of the README
 
 > **After, answering all those question, you will be promt a "Successful message."**
 
-![alt text](./viedo/README3.png)
 
-![alt text](./viedo/README4.png)
+![alt text](./images/README3.png)
 
+![alt text](./images/README4.png)
 
+## Follow along demo
 
+[![IMAGE ALT TEXT HERE](https://youtu.be/zLEMolZF69s)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
