@@ -41,20 +41,19 @@ THEN I am taken to the corresponding section of the README
 * Once the repository and inquirer have been install.
 * Follow the following command:
 
-![alt text](./images/README1.png)
+![terminal](./assets/images/README1.png)
 
 > **Then, a promt of question will appear.**
 
-![alt text](./images/README2.png)
+![question](./assets/images/README2.png)
 
 > **After, answering all those question, you will be promt a "Successful message."**
 
 
-![alt text](./images/README3.png)
+![promt](./assets/images/README3.png)
 
-![alt text](./images/README4.png)
+![preview](./assets/images/README4.png)
 
 ## Follow along demo
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/zLEMolZF69s)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
+[![Demo](./assets/images/demo.png)](https://www.youtube.com/watch?v=zLEMolZF69s)
