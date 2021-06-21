@@ -39,21 +39,28 @@ THEN I am taken to the corresponding section of the README
 * [README-generator](https://github.com/anhcu/README-generator/blob/main/test.md#License)
 * Once you download the repsoitory. You need to install node, npm and inquirer.
 * Once the repository and inquirer have been install.
-* Follow the following command:
+* Follow the following command:<br />
+
+<br>
 
 ![terminal](./assets/images/README1.png)
 
-> **Then, a promt of question will appear.**
+> **Then, a promt of question will appear.** <br />
+<br>
 
 ![question](./assets/images/README2.png)
 
-> **After, answering all those question, you will be promt a "Successful message."**
+> **After, answering all those question, you will be promt a "Successful message."**<br />
+<br>
 
 
-![promt](./assets/images/README3.png)
+![promt](./assets/images/README3.png)<br />
+<br>
 
-![preview](./assets/images/README4.png)
 
-## Follow along demo
-
+## <ins>Demo</ins>
+### Par1
 [![Demo](./assets/images/demo.png)](https://www.youtube.com/watch?v=zLEMolZF69s)
+
+### Part 2
+[![Demo 2](./assets/images/README4.png)](https://www.youtube.com/watch?v=bh2DatRxF-k)
