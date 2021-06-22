@@ -1,9 +1,9 @@
 
-  # README-generator
-  https://github.com/anhcu/README-generator
+  # 
+  https://github.com//
 
   # Email
-  anhcu714@gmail.com
+  
 
   # Table of Contents
   * [Title](#Title)
@@ -19,26 +19,26 @@
 
 
   # Description
-  README-generator is an app that is created and designed for web developers who want to save time and have a clean and professional README template.  This app allows web developers to create a README file simply by answering a few questions and BOOM! Your README is generated.
+  
 
   # Motivation
-  “Time is money”, Time is a valuable resource, therefore it is better to create and develop a README in a timely manner. 
+  
 
   # Install
-  Please install inquire, fs and utils.
+  
 
   # Instructions
-  Go to your terminal and run node index.js
+  
 
   # Question
-  I test the program by myself.
+  
 
   # Contact
-  If you have any questions, suggestions, or any future collaborations. Please email me anhcu714@gmail.com. 
+  
 
   # License
-  N/A
+  The MIT License
 
   # Contributor
-  N/A
+  
 
