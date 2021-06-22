@@ -5,11 +5,20 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown')
 // const licenseBadge = require('./utils/licenseBadge')
 
-    const questions = [{  
+    const questions = [{ 
         type:"input",
         message: "What is the title project?",
         name:"Title"
     },{
+        type: "checkbox",
+        message: "What license was used for this README?(Press spacebar to check box)",
+        name: "License",
+        choices: ['The MIT License', 
+        'IBM License',
+        'Apache License', 
+        'GNU License', 
+        'N/A']
+    },{  
         type:"input",
         message: "What is your Github user name?",
         name:"Github"
@@ -34,15 +43,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "What command do you need to run this app?",
         name: "Instructions"
     },{    
-        type: "checkbox",
-        message: "What license was used for this README?(Press spacebar to check box)",
-        name: "License",
-        choices: ['The MIT License' , 
-        'IBM License',
-        'Apache License', 
-        'GNU License', 
-        'N/A']
-    },{
         type: "input",
         message: "How are test initiated on your project?",
         name: "Question"
