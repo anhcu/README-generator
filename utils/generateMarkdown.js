@@ -1,21 +1,21 @@
 
-function licenseBadge(data){
-  console.log(data)
-  const licenseType = data.license[0];
-  let licenseString = " "
-  if (licenseType === "Apache"){
-    licenseString = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
-  };
-  if (licenseType === "IBM"){
-    licenseString = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
-  };
-  if (licenseType === "MIT"){
-    licenseString = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-  };
-  if (licenseType === "GNU"){
-    licenseString = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
-  };
-  return licenseString
+const badgeLicense = (response) =>{
+console.log(response)
+  var badge;
+
+  if (response.licence == "Apache License"){
+    badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+  }
+  else if (response.licence == "IBM License"){
+    badge = `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+  }
+  else if (response.licence == "The MIT License"){
+    badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  }
+  else if (response.licence == "GNU License "){
+    badge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+  }
+  return badge;
   
 };
 
@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   https://github.com/${data.Github}/${data.Title}
 
   # License
-  ${data.License}
+  ${badgeLicense.license}
 
   # Email
   ${data.Email}
