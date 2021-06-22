@@ -1,9 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-// const utils = require('utils');
 // const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown')
+// const licenseBadge = require('./utils/licenseBadge')
 
     const questions = [{  
         type:"input",
@@ -34,6 +34,15 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "What command do you need to run this app?",
         name: "Instructions"
     },{    
+        type: "checkbox",
+        message: "What license was used for this README?(Press spacebar to check box)",
+        name: "License",
+        choices: ['The MIT License' , 
+        'IBM License',
+        'Apache License', 
+        'GNU License', 
+        'N/A']
+    },{
         type: "input",
         message: "How are test initiated on your project?",
         name: "Question"
@@ -41,11 +50,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         type: "input",
         message: "How to contact me?",
         name: "Contact"
-    },{
-        type: "list",
-        message: "What license was used for this README?",
-        name: "License",
-        choices: ['The MIT License' , 'The GPL License','Apache License', 'GNU License', 'N/A']
     },{
         type: "input",
         message: "Who contributed to this project?",

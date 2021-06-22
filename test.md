@@ -12,9 +12,9 @@
   * [Motivation](#Motivation)
   * [Install](#Install)
   * [Instructions](#Instructions)
+  * [License](#License)
   * [Learn](#Learn)
   * [Contact](#Contact)
-  * [License](#License)
   * [Contributor](#Contributor)
 
 
@@ -30,14 +30,14 @@
   # Instructions
   
 
+  # License
+  The MIT License,IBM License,Apache License
+
   # Question
   
 
   # Contact
   
-
-  # License
-  The MIT License
 
   # Contributor
   
