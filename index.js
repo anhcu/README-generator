@@ -23,7 +23,7 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "What is your Github user name?",
         name:"Github"
     },{
-        typr:"input",
+        type:"input",
         message: "What is your email address?",
         name: "Email"
     },{
@@ -43,10 +43,6 @@ const generateMarkdown = require('./utils/generateMarkdown')
         message: "What command do you need to run this app?",
         name: "Instructions"
     },{    
-        type: "input",
-        message: "How are test initiated on your project?",
-        name: "Question"
-    },{
         type: "input",
         message: "How to contact me?",
         name: "Contact"
@@ -76,7 +72,7 @@ function init() {
     inquirer.prompt(questions)
     .then(function(data) {
         writeToFile('test.md', generateMarkdown(data));
-        console.log(data)
+        console.log(data.License)
     })
 }
 
